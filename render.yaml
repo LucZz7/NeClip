@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: neclip
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: LLM_PROVIDER
+        value: gemini
+      # Set these in the Render dashboard after deploy:
+      # GEMINI_API_KEY  -> your Google AI Studio key
+      # YT_CLIENT_ID    -> OAuth client ID (type: TVs and Limited Input devices)

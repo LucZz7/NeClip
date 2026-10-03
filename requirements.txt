@@ -1,0 +1,12 @@
+# NeClip backend + engine dependencies (root install for Docker/Render)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+google-auth-oauthlib>=1.2
+google-api-python-client>=2.0
+yt-dlp>=2024.1.1
+faster-whisper>=1.0.0
+openai>=1.0.0
+google-genai>=1.0.0
+av==12.0.0
+opencv-python-headless==4.10.0.84
